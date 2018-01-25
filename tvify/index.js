@@ -1,28 +1,9 @@
-/*var alerta= function(mensaje){
-	alert(mensaje)
-}
-
-alerta("Hola Luis Flores")
+/*que pasa se utilizamos jquery con prototipe?
+cual cargamos primero?
+entonces lo que podemos hacer es 
 */
-
-
-/*
-1° Forma
-$(document).ready(function () {
-    alert( 'ready!' );
-});
-2° Forma
-$().ready(function () {
-    alert( 'ready!' );
-});
-
-3° Forma*/
-$(function () {
-    alert( 'ready!' );
-});
-
-
-window.onload= function () {
-	alert('loaded')
-}
-
+$.noConflict();
+jQuery(document).ready(function($){
+	$ //jQuery
+})
+$ //Prototype
