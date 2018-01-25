@@ -1,5 +1,5 @@
 
 $(function(){
-	var header = $('h1')
+	var header = $('#app-header h1')
 	console.log(header)
 })
