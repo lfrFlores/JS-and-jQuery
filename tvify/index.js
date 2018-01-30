@@ -1,6 +1,5 @@
 $(function(){
-	$('h1').addClass('danger');
 	setTimeout(function(){
-		$('h1').removeClass('danger');
+		$('h1').toggleClass('danger');
 	},1500)
 })
