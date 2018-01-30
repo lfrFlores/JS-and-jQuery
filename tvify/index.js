@@ -1,5 +1,8 @@
 $(function(){
+	var $h1 =$('h1');
+	$h1.addClass('danger');
+	
 	setTimeout(function(){
-		$('h1').toggleClass('danger');
+		$h1.removeClass('danger');
 	},1500)
 })
