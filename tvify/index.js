@@ -1,8 +1,5 @@
 $(function(){
 	var $h1 =$('h1');
-	$h1.addClass('danger');
-	
-	setTimeout(function(){
-		$h1.removeClass('danger');
-	},1500)
+	var $h1b =$('h1');
+	console.log($h1===$h1b);
 })
