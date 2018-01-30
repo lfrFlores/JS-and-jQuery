@@ -20,6 +20,12 @@ body{
 	margin: 0;
 	color: white;
 }
+
+
+#app-header h1.danger {
+	color: red;
+}
+
 #app-body{
 	padding-top: 15vh;
 	width: 80%;

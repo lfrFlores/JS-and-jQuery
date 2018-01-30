@@ -1,10 +1,6 @@
 $(function(){
-	var a = $('<a>',{
-		href: 'https://facebook.com',
-		target: '_blank',
-		html: 'Ir a Facebook'
-	 }) 
-	$('#app-body').append(a);
-
-	a.attr('href','http://google.com')
+	$('h1').addClass('danger');
+	setTimeout(function(){
+		$('h1').removeClass('danger');
+	},1500)
 })
