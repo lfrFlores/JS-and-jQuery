@@ -6,5 +6,5 @@ $(function(){
 	 }) 
 	$('#app-body').append(a);
 
-	console.log(a.attr('href'))
+	a.attr('href','http://google.com')
 })
