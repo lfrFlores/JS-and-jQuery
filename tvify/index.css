@@ -45,3 +45,23 @@ body{
 	padding-top: 30px;
 	border-top: 1px solid #7f8c8d;
 } 
+.tv-show{
+	width: 100%;
+	overflow: hidden;
+	padding: 16px;
+	background-color: white;
+	margin-bottom: 16px;
+}
+.tv-show:hover{
+	background-color: #ecf0f1;
+}
+.tv-show img{
+max-height: 100px;
+max-width: 150px;
+}
+.tv-shows .info{
+	padding-left: 20px;
+}
+.left{
+	float: left;
+}
