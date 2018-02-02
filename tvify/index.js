@@ -5,6 +5,10 @@ $(function(){
 	.find('form')
 	.submit(function(ev){
 		ev.preventDefault();
-		alert('se hizo submit');
+
+		var busqueda= $(this)
+		.find('input[type="text"]').val(); 
+
+		alert('Se ha buscado: '+ busqueda);
 	})
 })
