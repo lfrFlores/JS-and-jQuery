@@ -1,8 +1,9 @@
 $(function(){
-	// $('header#app-header')
-	// .append($('<p>',{html:'Me acaban de crear'}))
+	// Submit search form
 
-	// $('<p>',{html:'Me acaban de crear'})
-	// .appendTo($('header#app-header'))
-
+	$('#app-body')
+	.find('form')
+	.submit(function(ev){
+		alert('se hizo submit');
+	})
 })

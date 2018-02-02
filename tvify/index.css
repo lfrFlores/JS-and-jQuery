@@ -55,13 +55,33 @@ body{
 .tv-show:hover{
 	background-color: #ecf0f1;
 }
-.tv-show img{
-max-height: 100px;
-max-width: 150px;
+.tv-show .img-container {
+	width: 20%;
 }
-.tv-shows .info{
-	padding-left: 20px;
+
+.tv-show img {
+	max-width: 80%;
+}
+.tv-show .info {
+	width: 90%;
 }
 .left{
 	float: left;
+}
+.right: {
+	float: right;
+}
+
+#app-body .search-form{
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 22px;
+}
+
+#app-body .search-form input[type="text"]{
+	padding: 12px 16px;
+	border-radius: 6px;
+	 width: 300px;
 }
